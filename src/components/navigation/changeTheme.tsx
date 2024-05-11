@@ -28,6 +28,8 @@ export default function ChangeTheme() {
     } else {
       document.documentElement.classList.remove("dark");
     }
+      // Dispara um evento personalizado chamado 'themeChange' para que o avatar possa mudar
+    window.dispatchEvent(new CustomEvent('themeChange', { detail: newTheme }));
   };
 // o retorno retorna o icone que tera a funçao de trocar o tema e mostar o icone dependendo do tema
   return (
