@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import Navbar from "./components/navigation/Navbar";
 import Pag1 from "./components/pages/Pag1";
+import HowIam from "./components/pages/HowIam";
 
 function App() {
   // parametros para tradução
@@ -24,6 +25,8 @@ function App() {
       <Navbar changeLanguage={handleChangeLanguage} currentLanguage={currentLanguage} />
     {/* primeira pagina*/}
       <Pag1/>
+    {/* segunda pagina */}
+    <HowIam/>
     </>
   );
 }

@@ -15,11 +15,11 @@ const Pag1 = () => {
   const { t } = useTranslation(); // Hook para acessar as traduções
 
   return (
-    <SectionContainer>
-      <div
-        id="pag1"
-        className={`text-1xl md:text-2xl flex justify-center items-center md:my-0`}
-      >
+    <div
+      id="pag1"
+      className={`text-1xl md:text-2xl flex justify-center items-center md:my-0`}
+    >
+      <SectionContainer>
         <div className="max-w-6xl mx-auto md:px-8">
           <div className="md:flex md:justify-between md:space-x-2 font-sans ">
             {/* Seção para a parte esquerda da tela */}
@@ -105,8 +105,8 @@ const Pag1 = () => {
             </div>
           </div>
         </div>
-      </div>
-    </SectionContainer>
+      </SectionContainer>
+    </div>
   );
 };
 

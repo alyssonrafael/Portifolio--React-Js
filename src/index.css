@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* comportamento para nao gerar scroll lateral por conta da img do how i amn */
+body {
+    overflow-x: hidden;
+  }
+  

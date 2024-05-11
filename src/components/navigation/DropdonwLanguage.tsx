@@ -20,11 +20,12 @@ const DropdownIdiomas: React.FC<DropdownIdiomasProps> = ({
   // controla o idioma atual
   const [selectedLanguage, setSelectedLanguage] = useState(currentLanguage);
 // funçao que e chamada quando um novo idioma e selecionado
-  const handleLanguageChange = (language: string) => {
-    setSelectedLanguage(language);
-    changeLanguage(language);
-    setIsOpen(false);
-  };
+const handleLanguageChange = (event: React.MouseEvent<HTMLAnchorElement>, language: string) => {
+  event.preventDefault(); // Isso vai prevenir o comportamento padrão do link e vai deixar a pagina onde esta nao vai subir
+  setSelectedLanguage(language);
+  changeLanguage(language);
+  setIsOpen(false);
+};
 // funçao para retornar a bandeirinha dependendo do idioma
   const getFlagIcon = (language: string) => {
     switch (language) {
@@ -71,7 +72,7 @@ const DropdownIdiomas: React.FC<DropdownIdiomasProps> = ({
               className="text-gray-700 block px-4 py-2 text-sm dark:text-gray-200"
               role="menuitem"
               id="menu-item-0"
-              onClick={() => handleLanguageChange("pt")}
+              onClick={(event) => handleLanguageChange(event, "pt")}
             >
               <img
                 src={brasil}
@@ -85,7 +86,7 @@ const DropdownIdiomas: React.FC<DropdownIdiomasProps> = ({
               className="text-gray-700 block px-4 py-2 text-sm dark:text-gray-200"
               role="menuitem"
               id="menu-item-1"
-              onClick={() => handleLanguageChange("en")}
+              onClick={(event) => handleLanguageChange(event, "en")}
             >
               <img
                 src={eua}
