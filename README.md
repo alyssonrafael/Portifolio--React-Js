@@ -4,9 +4,9 @@
 
 Este portfólio é o resultado de um percurso de aprendizado e adaptação. Inicialmente desenvolvido com Next.js e hospedado com sucesso, enfrentei desafios com algumas das configurações avançadas. Essa experiência levou-me a reconsiderar as ferramentas que estava utilizando. Após reflexão, decidi migrar o projeto para React que supria as necessidades do projeto, uma escolha que abriu novas possibilidades e simplificou o processo de desenvolvimento. Durante essa transição, tive meu primeiro contato com TypeScript, o que enriqueceu ainda mais o projeto com tipagem estática e uma experiência de desenvolvimento aprimorada.
 
-🔗 Link para o projeto hospedado na Vercel
+🔗 [Vercel](https://portifolio-react-js-gamma.vercel.app/).
 
-🔗 Link para o design no Figma
+🔗 [Figma]([https://exemplo.com/](https://www.figma.com/file/sLn0T4RIE5dVuLbzv19F5W/Portifolio?type=design&node-id=0%3A1&mode=design&t=q7mqpOo1lB0wslJn-1)).
 
 ## 🌟 Características do Projeto
 
