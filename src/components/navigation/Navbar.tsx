@@ -12,16 +12,14 @@ type NavbarProps = {
 };
 // componente da Navbar que vai retornar todos os links e a mudança de idioma e de tema
 const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
-
   // toggle navbar para quando tiver em dispositivos pequenos
   const [isClick, setIsClick] = useState(false);
-  
+
   const toggleNavbar = () => {
     setIsClick(!isClick);
   };
 
-  
-// usado para traduçao
+  // usado para traduçao
   const { t } = useTranslation();
 
   return (
@@ -73,7 +71,6 @@ const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
             </div>
           </div>
           <div className="flex items-center">
-
             <ChangeTheme />
             <button
               className=" md:hidden inline-flex items-center justify-center p-2 rounded-md hover:text-yellow-800 dark:hover:text-purple-600 focus:outline-none focus:ring-inset focus:ring-white transition-colors duration-300"
@@ -86,7 +83,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  >
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -96,11 +93,11 @@ const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
                 </svg>
               ) : (
                 <svg
-                className="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+                  className="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
                   <path
                     strokeLinecap="round"
@@ -111,7 +108,10 @@ const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
                 </svg>
               )}
             </button>
-        <DropdownIdiomas changeLanguage={changeLanguage} currentLanguage={currentLanguage} />
+            <DropdownIdiomas
+              changeLanguage={changeLanguage}
+              currentLanguage={currentLanguage}
+            />
           </div>
         </div>
       </div>
@@ -120,33 +120,53 @@ const Navbar: React.FC<NavbarProps> = ({ currentLanguage, changeLanguage }) => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-2 border-black dark:border-white">
             <ScrollLink
               to="pag1"
+              onClick={(e) => { // Adicione o evento aqui
+                setIsClick(false);
+                e.preventDefault(); // Previne o comportamento padrão do link
+              }}
               className="pl-1 block hover:bg-gray-300 hover:text-yellow-800 dark:hover:bg-gray-900 dark:hover:text-purple-600 rounded-lg"
             >
-             {t("home")}
+              {t("home")}
             </ScrollLink>
             <ScrollLink
               to="how-iam"
+              onClick={(e) => { // Adicione o evento aqui
+                setIsClick(false);
+                e.preventDefault(); // Previne o comportamento padrão do link
+              }}
               className="pl-1 block hover:bg-gray-300 hover:text-yellow-800 dark:hover:bg-gray-900 dark:hover:text-purple-600 rounded-lg"
             >
               {t("about")}
             </ScrollLink>
             <ScrollLink
               to="Technologies"
+              onClick={(e) => { // Adicione o evento aqui
+                setIsClick(false);
+                e.preventDefault(); // Previne o comportamento padrão do link
+              }}
               className="pl-1 block hover:bg-gray-300 hover:text-yellow-800 dark:hover:bg-gray-900 dark:hover:text-purple-600 rounded-lg"
             >
               {t("tecnologies")}
             </ScrollLink>
             <ScrollLink
               to="projetos"
+              onClick={(e) => { // Adicione o evento aqui
+                setIsClick(false);
+                e.preventDefault(); // Previne o comportamento padrão do link
+              }}
               className="pl-1 block hover:bg-gray-300 hover:text-yellow-800 dark:hover:bg-gray-900 dark:hover:text-purple-600 rounded-lg"
             >
               {t("projects")}
             </ScrollLink>
             <ScrollLink
               to="contato"
+              onClick={(e) => { // Adicione o evento aqui
+                setIsClick(false);
+                e.preventDefault(); // Previne o comportamento padrão do link
+              }}
               className="pl-1 block hover:bg-gray-300 hover:text-yellow-800 dark:hover:bg-gray-900 dark:hover:text-purple-600 rounded-lg"
             >
-             {t("contact")}
+              {t("contact")}
             </ScrollLink>
           </div>
         )}

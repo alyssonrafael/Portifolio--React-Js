@@ -11,16 +11,16 @@ type ScrollLinkProps = {
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
 //este e o componente que recebe as propriedades definidas no ScrollLinkProps ele desetrutura as propriedades to e children e usa o ... para receber quaisquer outras props fornecidas
-const ScrollLink: FC<ScrollLinkProps> = ({ to, children, ...props }) => {
-  // aqui a funçao que vai rolar suavemente para a seçao ancora de quetara definida no to
+const ScrollLink: FC<ScrollLinkProps> = ({ to, children, onClick, ...props }) => {
   const scrollToSection: MouseEventHandler<HTMLAnchorElement> = (e) => {
     e.preventDefault();
     const section = document.getElementById(to);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
+      onClick && onClick(e); 
     }
   };
-// ja aqui no rertorno e renderizado um elemento "a" que vai receber o to ou seja para onde ele vai e no onclick a rolagem suave
+
   return (
     <a href={`#${to}`} onClick={scrollToSection} {...props}>
       {children}
