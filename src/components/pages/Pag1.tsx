@@ -12,7 +12,7 @@ import Av1 from "../common/Av1"; // Importe o componente de avatar
 import ScrollLink from "../common/ScrollLink"; //importe do componente que coloca o scrool suave a minha pagina
 
 const Pag1 = () => {
-  const { t } = useTranslation(); // Hook para acessar as traduções
+  const { t, i18n } = useTranslation(); // Hook para acessar as traduções
 
   return (
     <div
@@ -29,21 +29,42 @@ const Pag1 = () => {
                 <div className="font-serif md:text-4xl transition-opacity duration-500 text-3xl items-center pt-16">
                   <h1 className="md:text-5xl">{t("title")}</h1>
                   {/* Animação de digitação */}
-                  <TypeAnimation
-                    sequence={[
-                      "Web develop",
-                      1000,
-                      "Dreamer",
-                      1000,
-                      "Adventurer",
-                      1000,
-                      "This is my Portfolio!",
-                      3000,
-                    ]}
-                    wrapper="h1"
-                    speed={1}
-                    repeat={Infinity}
-                  />
+                  <div>
+                    {i18n.language === "en" && (
+                      <TypeAnimation
+                        sequence={[
+                          "Web Developer",
+                          1000,
+                          "Dreamer",
+                          1000,
+                          "Adventurer",
+                          1000,
+                          "This is my Portfolio!",
+                          3000,
+                        ]}
+                        wrapper="h1"
+                        speed={1}
+                        repeat={Infinity}
+                      />
+                    )}
+                    {i18n.language === "pt" && (
+                      <TypeAnimation
+                        sequence={[
+                          "Desenvolvedor Web",
+                          1000,
+                          "Sonhador",
+                          1000,
+                          "Aventureiro",
+                          1000,
+                          "Este é o meu Portfólio!",
+                          3000,
+                        ]}
+                        wrapper="h1"
+                        speed={1}
+                        repeat={Infinity}
+                      />
+                    )}
+                  </div>
                 </div>
                 {/* Subtítulo */}
                 <p className="pt-3">{t("Navigating the Imagination")}</p>
