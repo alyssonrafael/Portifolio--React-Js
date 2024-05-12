@@ -12,6 +12,9 @@
         "Navigate to projects": "Navegar para Projetos",
         "Follow me": "Siga-me",
         "who I am": "Quem sou eu ?",
-        "whoiam description": "Me chamo Alysson Rafael, estudante de Ciência da Computação no quinto período, impulsionado por uma curiosidade insaciável e um compromisso com a aprendizagem contínua, especialmente no dinâmico campo do desenvolvimento web. Sou profundamente apaixonado tanto pelo desenvolvimento front-end quanto pelo back-end, aproveitando a oportunidade para brincar com elementos de design. Não apenas projetei esta página usando o Figma, mas também assumi a responsabilidade pela implementação do projeto inteiro, garantindo que cada linha de código reflita minha dedicação à excelência e atenção aos detalhes."
+        "whoiam description": "Me chamo Alysson Rafael, estudante de Ciência da Computação no quinto período, impulsionado por uma curiosidade insaciável e um compromisso com a aprendizagem contínua, especialmente no dinâmico campo do desenvolvimento web. Sou profundamente apaixonado tanto pelo desenvolvimento front-end quanto pelo back-end, aproveitando a oportunidade para brincar com elementos de design. Não apenas projetei esta página usando o Figma, mas também assumi a responsabilidade pela implementação do projeto inteiro, garantindo que cada linha de código reflita minha dedicação à excelência e atenção aos detalhes.",
+        "Technologies & Tools": "Tecnologias & Ferramentas",
+        "Applications & Data":"Aplicações e dados",
+        "Development": "Desenvolvimento"
     }
 }

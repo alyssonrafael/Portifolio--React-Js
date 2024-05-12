@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import Navbar from "./components/navigation/Navbar";
 import Pag1 from "./components/pages/Pag1";
 import HowIam from "./components/pages/HowIam";
+import Technologies from "./components/pages/Technologies";
 
 function App() {
   // parametros para tradução
@@ -27,6 +28,8 @@ function App() {
       <Pag1/>
     {/* segunda pagina */}
     <HowIam/>
+    {/* pagina das tecnologias */}
+    <Technologies/>
     </>
   );
 }
