@@ -72,7 +72,7 @@ const Projects = () => {
     <div id="projetos" className="min-h-screen flex flex-col justify-center pt-16">
       <div className="w-full">
         <div className="text-center lg:text-5xl font-serif text-4xl mb-8 pt-16 lg:pt-0 md:pt-0 dark:text-gray-200">
-          <h1>My Projects</h1>
+          <h1>{t("My Projects")}</h1>
         </div>
 
         <div className="my-12 mx-10">
