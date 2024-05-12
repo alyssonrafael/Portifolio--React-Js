@@ -5,6 +5,7 @@ import Navbar from "./components/navigation/Navbar";
 import Pag1 from "./components/pages/Pag1";
 import HowIam from "./components/pages/HowIam";
 import Technologies from "./components/pages/Technologies";
+import Projects from "./components/pages/Projects";
 
 function App() {
   // parametros para tradução
@@ -30,6 +31,8 @@ function App() {
     <HowIam/>
     {/* pagina das tecnologias */}
     <Technologies/>
+    {/* pagina dos projetos */}
+    <Projects/>
     </>
   );
 }

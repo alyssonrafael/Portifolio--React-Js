@@ -7,3 +7,17 @@ body {
     overflow-x: hidden;
   }
   
+.slick-slide > div {
+    margin: 0 14px;
+    transition: transform 0.3s ease, opacity 0.3s ease, border-radius 0.3s ease; 
+}
+/* define o hover apenas para dispositivos grandes */
+@media (min-width: 1024px) {
+  .slick-slide > div:hover {
+      transform: scale(1.05);
+  }
+
+  .slick-slide > div:not(:hover) {
+      opacity: 0.6; 
+  }
+}

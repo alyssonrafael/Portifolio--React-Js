@@ -15,6 +15,14 @@
         "whoiam description": "Me chamo Alysson Rafael, estudante de Ciência da Computação no quinto período, impulsionado por uma curiosidade insaciável e um compromisso com a aprendizagem contínua, especialmente no dinâmico campo do desenvolvimento web. Sou profundamente apaixonado tanto pelo desenvolvimento front-end quanto pelo back-end, aproveitando a oportunidade para brincar com elementos de design. Não apenas projetei esta página usando o Figma, mas também assumi a responsabilidade pela implementação do projeto inteiro, garantindo que cada linha de código reflita minha dedicação à excelência e atenção aos detalhes.",
         "Technologies & Tools": "Tecnologias & Ferramentas",
         "Applications & Data":"Aplicações e dados",
-        "Development": "Desenvolvimento"
+        "Development": "Desenvolvimento",
+        "CostReview":"Pequeno projeto para gerenciamento de despesas de projetos, feito com React js",
+        "To-do-List": "Lista de tarefas",
+        "To-do-List review": "A aplicação “Lista de Tarefas” é uma ferramenta simples projetada para ajudar os usuários a gerenciar suas tarefas de forma eficiente.",
+        "Data frame python analytics":"Análise de dados em Python",
+        "Data frame python analytics review":"Este projeto de análise de dados baseado em Python visa simplificar a manipulação e apresentação de grandes conjuntos de dados para fácil interpretação.",
+        "Iot-office-security-system":"Sistema de segurança de escritório IoT",
+        "Iot-office-security-system review":"Um sistema de fechadura de porta controlado por WiFi, construído usando um microcontrolador e Python.",
+        "Visit Project": "Visite este Projeto"
     }
 }
