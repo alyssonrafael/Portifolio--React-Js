@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
+# 🚀 Meu Portfólio - Evolução com Vite, React e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Sobre o Projeto
 
-Currently, two official plugins are available:
+Este portfólio é o resultado de um percurso de aprendizado e adaptação. Inicialmente desenvolvido com Next.js e hospedado com sucesso, enfrentei desafios com algumas das configurações avançadas. Essa experiência levou-me a reconsiderar as ferramentas que estava utilizando. Após reflexão, decidi migrar o projeto para React que supria as necessidades do projeto, uma escolha que abriu novas possibilidades e simplificou o processo de desenvolvimento. Durante essa transição, tive meu primeiro contato com TypeScript, o que enriqueceu ainda mais o projeto com tipagem estática e uma experiência de desenvolvimento aprimorada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Link para o projeto hospedado na Vercel
 
-## Expanding the ESLint configuration
+🔗 Link para o design no Figma
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🌟 Características do Projeto
 
-- Configure the top-level `parserOptions` property like this:
+- **Vite & React**: Uma combinação poderosa para um desenvolvimento rápido e eficiente.
+- **TypeScript**: Adicionando robustez com tipagem estática ao código JavaScript.
+- **Tailwind CSS**: Estilização ágil e responsiva com um framework CSS moderno.
+- **Tema Claro e Escuro**: Personalização visual para preferências de visualização.
+- **Mudança de Idioma Integrada**: Acessibilidade para usuários de diferentes idiomas.
+- **Responsividade**: Uma experiência fluida em qualquer dispositivo.
+- **Formulário de Contato**: Um canal direto para comunicação e feedback.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠️ Construído Com
+
+- Vite
+- React
+- TypeScript
+- Tailwind CSS
+- E outras bibliotecas que tornam o desenvolvimento mais divertido e eficiente.
+
+## 📋 Como Usar
+
+```bash
+# Clone este repositório
+$ git clone [link-do-seu-repositorio]
+
+# Vá para o repositório
+$ cd nome-do-seu-repositorio
+
+# Instale as dependências
+$ npm install
+
+# Execute o aplicativo
+$ npm run dev
 ```
+## Licença 📝
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[MIT](https://choosealicense.com/licenses/mit/)
