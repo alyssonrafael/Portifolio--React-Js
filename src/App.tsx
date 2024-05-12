@@ -6,6 +6,7 @@ import Pag1 from "./components/pages/Pag1";
 import HowIam from "./components/pages/HowIam";
 import Technologies from "./components/pages/Technologies";
 import Projects from "./components/pages/Projects";
+import Contato from "./components/pages/Contato";
 
 function App() {
   // parametros para tradução
@@ -33,6 +34,8 @@ function App() {
     <Technologies/>
     {/* pagina dos projetos */}
     <Projects/>
+    {/* pagina de contato */}
+    <Contato/>
     </>
   );
 }
