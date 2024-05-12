@@ -6,7 +6,7 @@ Este portfólio é o resultado de um percurso de aprendizado e adaptação. Inic
 
 🔗 [Vercel](https://portifolio-react-js-gamma.vercel.app/).
 
-🔗 [Figma]([https://exemplo.com/](https://www.figma.com/file/sLn0T4RIE5dVuLbzv19F5W/Portifolio?type=design&node-id=0%3A1&mode=design&t=q7mqpOo1lB0wslJn-1)).
+🔗 [Figma](https://www.figma.com/file/sLn0T4RIE5dVuLbzv19F5W/Portifolio?type=design&node-id=0%3A1&mode=design&t=q7mqpOo1lB0wslJn-1)
 
 ## 🌟 Características do Projeto
 
