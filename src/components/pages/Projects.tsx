@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 
 // import das imagens dos slides
 import costs from "../../assets/ProjetosImg/costs.png";
-import to_do from "../../assets/ProjetosImg/to-do.png";
+import to_do from "../../assets/ProjetosImg/to_do.png";
 import graficos from "../../assets/ProjetosImg/graficos.jpg";
 import iot from "../../assets/ProjetosImg/iot.png";
 
@@ -22,10 +22,10 @@ const Projects = () => {
     },
     {
       id: 2,
-      nome: t("To-do-List"),
+      nome: t("To-do-List Full"),
       review: t("To-do-List review"),
       img: to_do,
-      link: "https://github.com/alyssonrafael/to-do-list-Nodejs",
+      link: "https://github.com/alyssonrafael/to-do-list-full",
     },
     {
       id: 3,
