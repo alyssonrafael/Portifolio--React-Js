@@ -36,6 +36,8 @@
     "placeholder email": "Enter your e-mail:",
     "placeholder message": "Enter your message...",
     "Send": "Send",
-    "My Projects": "My Projects"
+    "My Projects": "My Projects",
+    "authentication system": "Authentication system",
+    "authentication system review": "This project implements an authentication system using React technologies for the front-end and Node.js for the back-end. The system uses JSON Web Tokens (JWT) to authenticate users, ensuring a secure and efficient means of access control."
   }
 }

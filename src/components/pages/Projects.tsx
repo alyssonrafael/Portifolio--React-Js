@@ -8,6 +8,8 @@ import costs from "../../assets/ProjetosImg/costs.png";
 import to_do from "../../assets/ProjetosImg/to_do.png";
 import graficos from "../../assets/ProjetosImg/graficos.jpg";
 import iot from "../../assets/ProjetosImg/iot.png";
+import login from "../../assets/ProjetosImg/login.png";
+
 
 const Projects = () => {
   const { t } = useTranslation(); // Hook para acessar as traduções
@@ -29,13 +31,20 @@ const Projects = () => {
     },
     {
       id: 3,
+      nome: t("authentication system"),
+      review: t("authentication system review"),
+      img: login,
+      link: "https://github.com/alyssonrafael/JWT_authentication_system",
+    },
+    {
+      id: 4,
       nome: t("Data frame python analytics"),
       review: t("Data frame python analytics review"),
       img: graficos,
       link: "https://github.com/alyssonrafael/projeto_DEV.rapido.python",
     },
     {
-      id: 4,
+      id: 5,
       nome: t("Iot-office-security-system"),
       review: t("Iot-office-security-system review"),
       img: iot,
@@ -49,7 +58,7 @@ const Projects = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
 
     responsive: [
@@ -94,7 +103,7 @@ const Projects = () => {
                   />
                 </div>
 
-                <div className="flex flex-col justify-center p-4 pt-10 font-sans h-[100px] max-h-[100px] overflow-y-auto ">
+                <div className="flex justify-center p-4 font-sans h-[20vh] overflow-y-auto ">
                   <p className="pt-4">{d.review}</p>
                 </div>
                 {/* Button */}
