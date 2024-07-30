@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useTranslation } from "react-i18next";
 
 // import das imagens dos slides
+import storage from "../../assets/ProjetosImg/storage.png";
 import costs from "../../assets/ProjetosImg/costs.png";
 import to_do from "../../assets/ProjetosImg/to_do.png";
 import graficos from "../../assets/ProjetosImg/graficos.jpg";
@@ -17,34 +18,41 @@ const Projects = () => {
   const data = [
     {
       id: 1,
+      nome: "Storage",
+      review: t("Storage review"),
+      img: storage,
+      link: "https://github.com/alyssonrafael/Storage",
+    },
+    {
+      id: 2,
       nome: "Costs",
       review: t("CostReview"),
       img: costs,
       link: "https://github.com/alyssonrafael/COSTs",
     },
     {
-      id: 2,
+      id: 3,
       nome: t("To-do-List Full"),
       review: t("To-do-List review"),
       img: to_do,
       link: "https://github.com/alyssonrafael/to-do-list-full",
     },
     {
-      id: 3,
+      id: 4,
       nome: t("authentication system"),
       review: t("authentication system review"),
       img: login,
       link: "https://github.com/alyssonrafael/JWT_authentication_system",
     },
     {
-      id: 4,
+      id: 5,
       nome: t("Data frame python analytics"),
       review: t("Data frame python analytics review"),
       img: graficos,
       link: "https://github.com/alyssonrafael/projeto_DEV.rapido.python",
     },
     {
-      id: 5,
+      id: 6,
       nome: t("Iot-office-security-system"),
       review: t("Iot-office-security-system review"),
       img: iot,

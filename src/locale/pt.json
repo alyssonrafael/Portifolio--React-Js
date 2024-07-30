@@ -38,6 +38,7 @@
     "Send": "Enviar",
     "My Projects":"Meus Projetos",
     "authentication system": "Sistema de autenticação",
-    "authentication system review": "Este projeto implementa um sistema de autenticação utilizando as tecnologias React para o front-end e Node.js para o back-end. O sistema utiliza JSON Web Tokens (JWT) para autenticar usuários, assegurando um meio seguro e eficiente de controle de acesso."
+    "authentication system review": "Este projeto implementa um sistema de autenticação utilizando as tecnologias React para o front-end e Node.js para o back-end. O sistema utiliza JSON Web Tokens (JWT) para autenticar usuários, assegurando um meio seguro e eficiente de controle de acesso.",
+    "Storage review": "Sistema completo de gerenciamento de estoque e vendas, desenvolvido para pequenas e médias empresas. Inclui cadastro e gerenciamento de produtos, processamento de vendas, controle de estoque, geração de relatórios e visualização de dados com gráficos interativos."
   }
 }

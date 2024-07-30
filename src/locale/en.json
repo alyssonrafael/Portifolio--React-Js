@@ -38,6 +38,7 @@
     "Send": "Send",
     "My Projects": "My Projects",
     "authentication system": "Authentication system",
-    "authentication system review": "This project implements an authentication system using React technologies for the front-end and Node.js for the back-end. The system uses JSON Web Tokens (JWT) to authenticate users, ensuring a secure and efficient means of access control."
+    "authentication system review": "This project implements an authentication system using React technologies for the front-end and Node.js for the back-end. The system uses JSON Web Tokens (JWT) to authenticate users, ensuring a secure and efficient means of access control.",
+    "Storage review": "Complete inventory and sales management system designed for small and medium-sized businesses. Includes product registration and management, sales processing, inventory control, report generation, and data visualization with interactive charts."
   }
 }
